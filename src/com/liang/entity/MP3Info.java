@@ -1,6 +1,13 @@
 package com.liang.entity;
 
-public class MP3Info {
+import java.io.Serializable;
+
+public class MP3Info implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private String id;
 	private String mp3Name;
 	private String mp3Size;
